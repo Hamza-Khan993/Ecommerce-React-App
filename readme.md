@@ -25,7 +25,9 @@ in the root terminal
 
 ## Login and Register Auth
 
-User database is maintained in MongoDB for Registered Users and data is used for Login in users
+User database is maintained in MongoDB for Registered Users and data is used for Login in users.
+
+Passwords are not hashed in database but it can be done if required
 
 ## For Updating Products in Mongo Db
 
