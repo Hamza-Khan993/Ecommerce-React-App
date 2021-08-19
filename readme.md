@@ -18,7 +18,7 @@ To start the app
 
 Run
 
-***npm run dev
+**npm run dev**
 
 in the root terminal
 
@@ -33,6 +33,6 @@ User database is maintained in MongoDB for Registered Users and data is used for
 2.save the data
 
 3. and run
-***npm run seed
+**npm run seed**
 
 to update data for products
