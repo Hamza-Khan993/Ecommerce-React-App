@@ -5,15 +5,15 @@ https://ecommerce-app-hamza-khan.herokuapp.com/
 
 **Website Pages**
  
-1.Home
+1. Home
 
-2.Products
+2. Products
 
-3.Product Item
+3. Product Item
 
-4.Register
+4. Register
 
-5.Login
+5. Login
 
 To start the app
 
