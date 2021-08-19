@@ -31,9 +31,9 @@ Passwords are not hashed in database but it can be done if required
 
 ## For Updating Products in Mongo Db
 
-1.Add data in products.json
+1. Add data in products.json
 
-2.save the data
+2. save the data
 
 3. and run
 **npm run seed**
