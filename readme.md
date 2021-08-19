@@ -4,21 +4,21 @@ https://ecommerce-app-hamza-khan.herokuapp.com/
 
 **Website Pages**
  
-Home
+1.Home
 
-Products
+2.Products
 
-Product Item
+3.Product Item
 
-Register
+4.Register
 
-Login
+5.Login
 
 To start the app
 
 Run
 
-#### npm run dev
+***npm run dev
 
 in the root terminal
 
@@ -28,11 +28,11 @@ User database is maintained in MongoDB for Registered Users and data is used for
 
 ## For Updating Products in Mongo Db
 
-Add data in products.json
+1.Add data in products.json
 
-save the data
+2.save the data
 
-and run
-### npm run seed
+3. and run
+***npm run seed
 
 to update data for products
