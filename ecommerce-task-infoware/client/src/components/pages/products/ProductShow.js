@@ -43,6 +43,7 @@ const ProductShow = () => {
                             image1={images[0]}
                             image2={images[1]}
                             image3={images[2]} />
+
                     </div>
                     <div style={{ justifySelf: "center", textAlign: "center", alignSelf: "center" }}>
                         <ProductInfo product={product} />

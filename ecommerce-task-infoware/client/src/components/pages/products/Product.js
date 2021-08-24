@@ -5,8 +5,7 @@ import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import { CardActions, IconButton } from '@material-ui/core';
 import { AddShoppingCart } from '@material-ui/icons'
-import { useHistory } from 'react-router';
-// import { useHistory } from 'react-dom';
+import { useHistory } from 'react-router-dom';
 // import { Link } from 'react-router-dom';
 // import ProductItems from './ProductItems';
 // import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
@@ -36,9 +35,7 @@ const Product = ({ product }) => {
     const history = useHistory();
 
     return (
-        <Card style={{ cursor: "pointer" }}
-            onClick={() => history.push(`/product/${product._id}`)}
-        >
+        <Card style={{ cursor: "pointer" }} onClick={() => history.push(`/product/${product._id}`)}>
             <img className={classes.media} src={product.images[0]} alt="" />
             <CardContent>
                 <div className={classes.cardContent}>

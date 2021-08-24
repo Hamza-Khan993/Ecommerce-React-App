@@ -5,7 +5,7 @@ import { makeStyles, createStyles } from '@material-ui/core/styles';
 const Images = [
     {
 
-        "src": "https://image.made-in-china.com/44f3j00CZUajbWGgBqT/Luxury-Modern-Double-Customized-Bed-with-Leather-and-Fabric-Nice-Mixed-Headboard.jpg"
+        "src": "https://www.theelevate.in/images/Beds/modern-bed-designs.png"
     },
     {
         "src": "https://i.pinimg.com/originals/a8/76/e1/a876e1b547bb61097ddd12531b351ee0.png"

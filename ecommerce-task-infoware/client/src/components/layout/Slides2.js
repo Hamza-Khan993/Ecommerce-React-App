@@ -5,7 +5,7 @@ import { makeStyles, createStyles } from '@material-ui/core/styles';
 const Images = [
     {
 
-        "src": "https://image.made-in-china.com/44f3j00CZUajbWGgBqT/Luxury-Modern-Double-Customized-Bed-with-Leather-and-Fabric-Nice-Mixed-Headboard.jpg"
+        "src": "https://www.theelevate.in/images/Beds/modern-bed-designs.png"
     },
     {
         "src": "https://i.pinimg.com/originals/a8/76/e1/a876e1b547bb61097ddd12531b351ee0.png"
@@ -63,7 +63,7 @@ const useStyles = makeStyles((theme) =>
         },
         slidesImage: {
             height: "700px",
-            width: "100%",
+            // width: "100%",
             // float: "right",
 
             "@media (max-width: 920px)": {
@@ -81,31 +81,36 @@ const useStyles = makeStyles((theme) =>
 );
 
 
-const Slides = () => {
+const Slides2 = () => {
     const classes = useStyles();
 
     return (
         <Fragment>
-            <div className={classes.mainContainer}>
-                <div className={classes.topImage}>
-                    <img style={{ opacity: "0.5", height: "600px" }} src="https://wallpapercave.com/wp/mOj6vHu.png" alt="" />
-                    <div className={classes.contentBg}>
-                        <p style={{ color: "white", fontSize: "20px" }}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur tempore magnam, autem atque provident necessitatibus natus nemo nisi quam! Numquam, tempore? Esse aut ducimus delectus molestiae alias temporibus inventore animi!</p>
-                        <Link to="/products"><button style={{ opacity: "0.5", fontSize: "30px", transition: "0.30s ease-in-out" }} className="btn shop-now ">Shop Now</button></Link>
-                    </div>
-                </div>
-                <div id="carouselExampleIndicators" className={`${classes.bottomImage} carousel slide`} data-bs-ride="carousel">
+            <div>
+
+                <div id="carouselExampleIndicators" className={`carousel slide`} data-bs-ride="carousel">
                     <div className="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
-                    <div className="carousel-inner">
-                        <div className="carousel-item active">
-                            <img src={Images[0].src} className={`${classes.slidesImage} d-block`} alt="..." />
+                    <div className={`carousel-inner `}>
+                        <div className={`carousel-item active ${classes.mainContainer}`}>
+                            <div className={classes.topImage}>
+                                <img style={{ opacity: "0.5", height: "600px" }} src="https://wallpapercave.com/wp/mOj6vHu.png" alt="" />
+                                <div className={classes.contentBg}>
+                                    <p style={{ color: "white", fontSize: "20px" }}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur tempore magnam, autem atque provident necessitatibus natus nemo nisi quam! Numquam, tempore? Esse aut ducimus delectus molestiae alias temporibus inventore animi!</p>
+                                    <Link to="/products"><button style={{ opacity: "0.5", fontSize: "30px", transition: "0.30s ease-in-out" }} className="btn shop-now ">Shop Now</button></Link>
+                                </div>
+                            </div>
+                            <div className={classes.bottomImage}>
+                                <img src={Images[0].src} className={`${classes.slidesImage} d-block`} alt="..." />
+                            </div>
                         </div>
                         <div className="carousel-item">
-                            <img src={Images[1].src} className={`${classes.slidesImage} d-block`} alt="..." />
+                            <div>
+                                <img src={Images[1].src} className={`${classes.slidesImage} d-block`} alt="..." />
+                            </div>
                         </div>
                         <div className="carousel-item">
                             <img src={Images[2].src} className={`${classes.slidesImage} d-block`} alt="..." />
@@ -123,8 +128,8 @@ const Slides = () => {
             </div>
 
 
-        </Fragment>
+        </Fragment >
     )
 }
 
-export default Slides
+export default Slides2
