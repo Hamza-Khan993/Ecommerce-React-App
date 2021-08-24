@@ -1,39 +1,41 @@
 This Website is Deployed on Heroku
+
 Visit the App:
 https://ecommerce-app-hamza-khan.herokuapp.com/
 
-### Website Pages
+**Website Pages**
+ 
+1. Home
 
-###### Home
+2. Products
 
-###### Products
+3. Product Item
 
-###### Product Item
+4. Register
 
-###### Register
-
-###### Login
+5. Login
 
 To start the app
 
 Run
 
-#### npm run dev
+**npm run dev**
 
 in the root terminal
 
-### Login and Register Auth
+## Login and Register Auth
 
-User database is maintained in MongoDB for Registered Users and data is used for Login in users
+User database is maintained in MongoDB for Registered Users and data is used for Login in users.
+
+Passwords are not hashed in database but it can be done if required
 
 ## For Updating Products in Mongo Db
 
-Add data in products.json
+1. Add data in products.json
 
-save the data
+2. save the data
 
-and run
-
-## npm run seed
+3. and run
+**npm run seed**
 
 to update data for products
